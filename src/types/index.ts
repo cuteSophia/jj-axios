@@ -61,6 +61,7 @@ export interface AxiosError extends Error {
   response?: AxiosResponse
 }
 
+// 定义接口
 export interface Axios {
   defaults: AxiosRequestConfig
   interceptors: {
