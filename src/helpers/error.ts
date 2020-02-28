@@ -9,6 +9,8 @@ export class AxiosError extends Error {
   response?: AxiosResponse
 
   // 构造函数
+  // 下行代码表示忽略单元测试
+  /* istanbul ignore next */
   constructor(
     message: string,
     config: AxiosRequestConfig,
